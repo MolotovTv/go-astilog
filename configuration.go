@@ -4,9 +4,9 @@ import "flag"
 
 // Flags
 var (
-	AppName  = flag.String("logger-app-name", "", "the logger's app name")
-	Filename = flag.String("logger-filename", "", "the logger's filename")
-	Verbose  = flag.Bool("v", false, "if true, then log level is debug")
+	AppName  = flag.String("logger-app-name-v2", "", "the logger's app name")
+	Filename = flag.String("logger-filename-v2", "", "the logger's filename")
+	Verbose  = flag.Bool("v-v2", false, "if true, then log level is debug")
 )
 
 // Formats
