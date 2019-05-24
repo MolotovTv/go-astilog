@@ -6,7 +6,7 @@ import "flag"
 var (
 	AppName  = flag.String("logger-app-name-v2", "", "the logger's app name")
 	Filename = flag.String("logger-filename-v2", "", "the logger's filename")
-	Verbose  = flag.Bool("v-v2", false, "if true, then log level is debug")
+	Verbose  = flag.Bool("v", false, "if true, then log level is debug")
 )
 
 // Formats
