@@ -1,4 +1,4 @@
-module github.com/molotovtv/go-astilog
+module github.com/molotovtv/go-astilog/v2
 
 require (
 	github.com/mattn/go-colorable v0.0.9
