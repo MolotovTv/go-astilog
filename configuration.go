@@ -1,14 +1,5 @@
 package astilog
 
-import "flag"
-
-// Flags
-var (
-	AppName  = flag.String("logger-app-name", "", "the logger's app name")
-	Filename = flag.String("logger-filename", "", "the logger's filename")
-	Verbose  = flag.Bool("v", false, "if true, then log level is debug")
-)
-
 // Formats
 const (
 	FormatJSON = "json"
@@ -33,13 +24,4 @@ type Configuration struct {
 	Out             string `toml:"out"`
 	TimestampFormat string `toml:"timestamp_format"`
 	Verbose         bool   `toml:"verbose"`
-}
-
-// FlagConfig generates a Configuration based on flags
-func FlagConfig() Configuration {
-	return Configuration{
-		AppName:  *AppName,
-		Filename: *Filename,
-		Verbose:  *Verbose,
-	}
 }
