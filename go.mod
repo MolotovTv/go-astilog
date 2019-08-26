@@ -1,4 +1,4 @@
-module github.com/asticode/go-astilog
+module github.com/molotovtv/go-astilog
 
 require (
 	github.com/justinas/alice v0.0.0-20171023064455-03f45bd4b7da // indirect
